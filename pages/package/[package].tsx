@@ -1,6 +1,18 @@
 import { NextPage } from 'next';
 import Header from '../../components/Header';
-import { Button, Col, Grid, Label, ListGroup, ListGroupItem, PageHeader, Panel, Row, Tab, Tabs } from 'react-bootstrap';
+import {
+  Button,
+  Col,
+  Grid,
+  Label,
+  ListGroup,
+  ListGroupItem,
+  PageHeader,
+  Panel,
+  Row,
+  Tab,
+  Tabs,
+} from 'react-bootstrap';
 import React from 'react';
 
 const Package: NextPage = () => {
@@ -45,8 +57,11 @@ const Package: NextPage = () => {
                 <Panel.Title componentClass="h3">Statistics</Panel.Title>
               </Panel.Heading>
               <ListGroup>
-                <ListGroupItem>  <span class="badge">14</span>
-                  Cras justo odio</ListGroupItem>
+                <ListGroupItem>
+                  {' '}
+                  <span className="badge">14</span>
+                  Cras justo odio
+                </ListGroupItem>
                 <ListGroupItem>Item 2</ListGroupItem>
                 <ListGroupItem>&hellip;</ListGroupItem>
               </ListGroup>
