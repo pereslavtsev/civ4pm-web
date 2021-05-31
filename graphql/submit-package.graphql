@@ -1,0 +1,9 @@
+mutation submitPackage($input: SubmitPackageInput!) {
+  submitPackage(input: $input) {
+    id
+    name
+    game
+    civFanaticsID
+    gitRepo
+  }
+}
